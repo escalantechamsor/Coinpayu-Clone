@@ -31,7 +31,7 @@ function SideBar() {
           </div>
         </li>
 
-        <li className="">
+        <li className="hover:bg-gray-200 transition-all">
           <button
             className="w-full h-[10vh] transition-all pl-16 text-base font-normal items-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer"
             onClick={showContent}
@@ -43,16 +43,16 @@ function SideBar() {
           </button>
           {show ? (
             <ul className=" text-center cursor-pointer">
-              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20">
+              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20 hover:bg-gray-50 transition-all h-[8vh] flex items-center justify-center">
                 Surf Adds
               </li>
-              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20">
+              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20 hover:bg-gray-50 transition-all h-[8vh] flex items-center justify-center">
                 Window Ads
               </li>
-              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20">
+              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20 hover:bg-gray-50 transition-all h-[8vh] flex items-center justify-center">
                 Article Ads
               </li>
-              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20">
+              <li className="p-2 border-b-[1px] border-gray-400 border-opacity-20 hover:bg-gray-50 transition-all h-[8vh] flex items-center justify-center">
                 Video Ads
               </li>
             </ul>
@@ -61,7 +61,7 @@ function SideBar() {
           )}
         </li>
 
-        <li>
+        <li className="hover:bg-gray-200 transition-all">
           <div className="w-full h-[10vh]  pl-16  text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
             <span className="flex justify-center items-center p-2 text-2xl">
               <BsCalendarCheck />
@@ -70,8 +70,8 @@ function SideBar() {
           </div>
         </li>
 
-        <li>
-          <div className="w-full h-[10vh]  pl-16  text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
+        <li className="hover:bg-gray-200 transition-all">
+          <div className="w-full h-[10vh] pl-16 text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
             <span className="flex justify-center items-center p-2 text-2xl">
               <GiSandsOfTime />
             </span>
@@ -79,7 +79,7 @@ function SideBar() {
           </div>
         </li>
 
-        <li>
+        <li className="hover:bg-gray-200 transition-all">
           <div className="w-full h-[10vh]  pl-16 text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
             <span className="flex justify-center items-center p-2 text-2xl">
               <FaChartLine />
@@ -88,7 +88,7 @@ function SideBar() {
           </div>
         </li>
 
-        <li>
+        <li className="hover:bg-gray-200 transition-all">
           <div className="w-full h-[10vh]  pl-16 text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
             <span className="flex justify-center items-center p-2 text-2xl">
               <IoIosPeople />
@@ -97,7 +97,7 @@ function SideBar() {
           </div>
         </li>
 
-        <li>
+        <li className="hover:bg-gray-200 transition-all">
           <div className="w-full h-[10vh]  pl-16 text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
             <span className="flex justify-center items-center p-2 text-2xl">
               <GiHamburgerMenu />
@@ -106,7 +106,7 @@ function SideBar() {
           </div>
         </li>
 
-        <li>
+        <li className="hover:bg-gray-200 transition-all">
           <div className="w-full h-[10vh]  pl-16 text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
             <span className="flex justify-center items-center p-2 text-2xl">
               <GiNotebook />
@@ -115,7 +115,7 @@ function SideBar() {
           </div>
         </li>
 
-        <li>
+        <li className="hover:bg-gray-200 transition-all">
           <div className="w-full h-[10vh]  pl-16 text-base font-normal text-center flex border-b-[1px] border-gray-400 border-opacity-20 cursor-pointer">
             <span className="flex justify-center items-center p-2 scale-125">
               <BsThreeDots />
